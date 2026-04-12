@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@property --deg{
+    syntax:' <angle>';
+    initial-value:0deg;
+    inherits: false;
+}
+
+@layer components{
+    .camponent{
+        color: transparent;
+        background-clip:text ;
+        background-image:conic-gradient(from var(--deg), white ,rgb(12, 56, 113),rgb(28, 35, 45));
+          animation: new 5s linear infinite;
+    }
+    @keyframes new {
+        from{
+            --deg:0deg;
+        }
+        to{
+            --deg:360deg;
+        }
+    }
+}

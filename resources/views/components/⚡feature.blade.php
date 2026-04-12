@@ -10,7 +10,7 @@ new class extends Component
 
 <div class=" max-w-6xl mx-auto">
     <div class=" justify-center flex flex-col items-center text-wrap shadow-[0px_0px_0px_rgba(0,0,0,0,0.4)]">
-           <h1 class="sm:text-xl md:text-4xl py-6 lg:text-6xl font-bold">Sharifi high School</h1>
+           <h1 class="sm:text-xl md:text-4xl py-6 lg:text-6xl font-bold camponent">Sharifi high School</h1>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt natus magni temporibus nihil id, dolorem laudantium officia blanditiis facere, delectus, quasi qui dicta optio laborum earum explicabo alias beatae facilis.</p>
     </div>
     <div class=" grid md:grid-cols-2 lg:grid-cols-3 gap-2">
