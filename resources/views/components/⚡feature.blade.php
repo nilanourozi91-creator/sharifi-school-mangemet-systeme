@@ -23,7 +23,7 @@ new class extends Component
                 <h1 class="md:text-sm lg:text-2xl text-sky-600 ">Esmatollah Gholami</h1>
                 <p></p>
             </div>
-            <img src="images/esmat.jpg" class="md:col-span-1 lg:col-span-1 border-sky-600 border-2 rounded-xl md:h-32 md:w-32 lg:h-52 lg:w-52  hover:rotate-12 hover:shadow-2xl " alt="imge">
+            <img src="images/teachers-4.jpg" class="md:col-span-1 lg:col-span-1 border-sky-600 border-2 rounded-xl md:h-32 md:w-32 lg:h-52 lg:w-52  hover:rotate-12 hover:shadow-2xl " alt="imge">
         </div>
     </div>
     <div class="  py-2 px-3 w-full rounded-xl md:col-span-1 lg:col-span-1 bg-gray-200 h-fit">

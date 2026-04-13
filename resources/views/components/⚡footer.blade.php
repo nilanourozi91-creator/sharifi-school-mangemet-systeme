@@ -14,7 +14,7 @@ new class extends Component
 ?>
 <div class="w-full bg-gray-900 text-gray-300 pt-10 pb-5 px-6">
     
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="max-w-6xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-8">
 
         
         <div>
@@ -35,7 +35,6 @@ new class extends Component
             </ul>
         </div>
 
-        <
         <div>
             <h2 class="text-xl font-bold text-white mb-3">Contact</h2>
             <p class="text-sm">📍 Ghazni, Afghanistan</p>
