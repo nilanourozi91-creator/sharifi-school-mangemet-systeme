@@ -31,6 +31,8 @@
                   <livewire:banner/>
                   <livewire:feature/>
                   <livewire:team_work/>
+                  <livewire:aboutus/>
+                  <livewire:me/>
                   <livewire:fqs/>
                   <livewire:footer/>
             </div>

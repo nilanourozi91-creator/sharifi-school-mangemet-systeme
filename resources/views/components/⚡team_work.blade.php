@@ -8,23 +8,37 @@ new class extends Component
 };
 ?>
 
-<div class=" h-fit w-full mx-auto flex justify-center items-center mt-32 ">
-     <div class=" w-[80vw] h-full p-10 shadow-[0px_0px_3px_gray] rounded-xl">
-        <h1 class="md:text-xl lg:text-2xl text-sky-600 p-5">About us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptates impedit repellat! At repellendus obcaecati itaque, consectetur nam officiis, voluptatem saepe expedita hic maxime minima explicabo quasi libero, unde accusantium!</p>
-        <div class=" flex flex-wrap pt-6 sm:flex-col lg:flex-row md:gap-y-52  lg:gap-y-1   justify-between items-center">
-          <div class="text-center bg-white shadow hover:shadow-transparent px-9 pb-8 pt-3 rounded-lg">
-              <img class=" h-32 w-32 rounded-full  shadow hover:shadow-transparent " src="images/team-1.jpg" alt="imge">
-            <p class=" pb-5 pt-2">Me</p>
-          </div>
-            <div class="text-center bg-white shadow hover:shadow-transparent px-9 pb-8 pt-3 rounded-lg">
-              <img class=" h-32 w-32 rounded-full  shadow hover:shadow-transparent" src="images/team-2.jpg" alt="imge">
-            <p class=" pb-5 pt-2">My Team</p>
-          </div>
-          <div class="text-center bg-white shadow hover:shadow-transparent px-9 pb-8 pt-3 rounded-lg ">
-              <img class=" h-32 w-32 rounded-full  shadow hover:shadow-transparent" src="images/team-3.jpg" alt="imge">
-            <p class=" pb-5 pt-2">My Manager</p>
-          </div>
+<div class="w-full bg-gray-100 py-12 px-6">
+
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+        <!-- 🖼️ Image -->
+        <div>
+            <img src="/images/school.jpg" alt="School" class="rounded-2xl shadow-lg w-full">
         </div>
-     </div>
+
+        <!-- 📝 Content -->
+        <div>
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">
+                About Sharifi High School
+            </h2>
+
+            <p class="text-gray-600 leading-7 mb-4">
+                Sharifi High School is committed to providing high-quality education
+                and shaping the future of our students through knowledge, discipline,
+                and innovation.
+            </p>
+
+            <p class="text-gray-600 leading-7 mb-6">
+                Our mission is to empower students with modern skills and strong values
+                to succeed in their academic and professional lives.
+            </p>
+
+            <button class="bg-sky-600 text-white px-6 py-2 rounded-lg hover:bg-sky-700 transition">
+                Learn More
+            </button>
+        </div>
+
+    </div>
+
 </div>
