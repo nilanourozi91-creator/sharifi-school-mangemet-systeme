@@ -19,7 +19,7 @@
         <div class="  backdrop-blur-md h-24 w-full border-b-2 border-black fixed top-0">
                     <header class="flex h-full items-center justify-between px-6 ">
                         <div class="flex lg:justify-center lg:col-start-2">
-                        <img src="/images/logo.png" class="w-20 h-20 rounded-full" alt="logo">
+                        <img src="/images/logo.jpg" class="w-20 h-20 rounded-full" alt="logo">
                         </div>
                         @if (Route::has('login'))
                             <livewire:welcome.navigation />
